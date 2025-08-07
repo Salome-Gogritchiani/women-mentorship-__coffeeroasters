@@ -14,7 +14,8 @@ html {
 
 body {
   font-family: Arial, sans-serif;
-  background-color: #FEFCF7;
+  background-color: rgba(254, 252, 247, 1);
+
 }
 h3{
  font-family: "Fraunces", serif;
@@ -75,7 +76,7 @@ p{
 .coffee-item img {
   width: 200px;
   height: 151px;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 .text{
   width: 282px;
@@ -90,7 +91,8 @@ p{
   .coffee-list {
     gap: 2.5rem;
     width: 573px;
-
+    margin-top: -65px;
+    margin-left: 65px;
   }
 
   .coffee-item {
@@ -127,7 +129,7 @@ p{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    gap: 1rem;
+    gap: 2.5rem;
   }
 
   .coffee-item {
@@ -149,4 +151,8 @@ p{
     font-size: 16px;
     line-height: 26px;
   }
+.text{
+  width: 255px;
+height: 134px;
+}
 }
