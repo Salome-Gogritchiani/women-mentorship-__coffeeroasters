@@ -66,31 +66,31 @@ p{
 }
 
 .coffee-item img {
-  width: 120px;
-  height: auto;
+  width: 200px;
+  height: 151px;
   margin-bottom: 1rem;
 }
-
+/* 
 .coffee-item .text h3 {
-  font-size: 1.1rem; /* 17.6px */
+  font-size: 1.1rem; 
   font-weight: 700;
   margin-bottom: 0.5rem;
 }
 
 .coffee-item .text p {
-  font-size: 0.9rem; /* 14.4px */
+  font-size: 0.9rem; 
   color: #555;
   line-height: 1.4;
   max-width: 300px;
   margin: 0 auto;
-}
+} */
 
 /* --------- Tablet Version --------- */
 @media (min-width: 600px) {
-  .collection-title {
-    font-size: 2rem; /* 32px */
+  /* .collection-title {
+    font-size: 2rem; 
     margin-bottom: 3rem;
-  }
+  } */
 
   .coffee-list {
     gap: 2.5rem;
@@ -104,23 +104,24 @@ p{
   }
 
   .coffee-item img {
-    width: 140px;
+    width: 255px;
+    height: 193px;
   }
 
-  .coffee-item .text h3 {
-    font-size: 1.25rem; /* 20px */
+  /* .coffee-item .text h3 {
+    font-size: 1.25rem; 
   }
 
   .coffee-item .text p {
-    font-size: 1rem; /* 16px */
+    font-size: 1rem; 
     max-width: 100%;
-  }
+  } */
 }
 
 /* --------- Desktop Version --------- */
 @media (min-width: 1024px) {
-  .collection-title {
-    font-size: 2.5rem; /* 40px */
+  /* .collection-title {
+    font-size: 2.5rem; 
     margin-bottom: 3rem;
     text-align: center;
     position: absolute;
@@ -128,7 +129,7 @@ p{
     top: 10px;
     transform: translateX(-50%);
     z-index: 0;
-  }
+  } */
 
   .coffee-list {
     display: flex;
@@ -143,19 +144,18 @@ p{
     flex-direction: column;
     align-items: center;
     text-align: center;
-    max-width: 220px;
+    /* max-width: 220px; */
   }
 
   .coffee-item img {
-    width: 150px;
+    width: 256px;
+    height: 193px;
     margin-bottom: 1rem;
   }
 
-  .coffee-item .text h3 {
-    font-size: 1.25rem; /* 20px */
-  }
 
   .coffee-item .text p {
-    font-size: 0.95rem;
+    font-size: 16px;
+    line-height: 26px;
   }
 }
